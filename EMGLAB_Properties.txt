@@ -1,0 +1,92 @@
+ConditionDirectory % path where condition files are stored
+SubjectParentFolder
+AnalysisDir
+ConditionInfo % information stored in condition file
+ConditionData % cell array to extract event and trial data
+Events % list of events in EVA
+CurrentEvent % current event
+SampleRate % sampling rate
+Time % time of recording
+TrialThreshold
+RF_IDX % Ch1RF
+RE_IDX % Ch1RE
+RF_AntagonistIDX
+RE_AntagonistIDX
+BestBaselineSummaryDataCh1RF % data from onset detection
+BestBaselineSummaryDataCh2RE % data from onset detection
+SetWindowSummaryDataCh1RF
+SetWindowSummaryDataCh2RE
+AllDataCh1RF
+AllDataCh2RE
+BestBaselineAllDataCh1RF
+BestBaselineAllDataCh2RE
+SetWindowAllDataCh1RF
+SetWindowAllDataCh2RE
+CombinedData
+BestBaselineCombinedData
+SetWindowCombinedData
+RawEMG % formatted struct of Raw EMG timeseries data
+ProcessedEMG % bandpass- and notch-filtered; rectified EMG
+SmoothedEMG % lowpass filtered EMG
+MaxEMG
+BaselineStats % struct containing best baseline window information
+SetWindowBaselineStats
+EMGBurstOnsets
+SetWindowEMGBurstOnsets
+NoTrial
+SetWindowNoTrial
+MaxBaselineDiff
+SetWindowMaxBaselineDiff
+TargetEvents % indexes of events of interest (e.g., RF and RE)
+FormattedDate
+SubID % subject study ID
+TimePoint % recording timepoint in MAPS study (e.g., T0, T1, T3, T6)
+RecordingArm % L or R; arm being used to play game in this condition file
+AffectedArm % L or R; arm affected by stroke
+ResultsDir % where to save all the data
+TrialCount % total number of trials
+CurrentTrial % store current trial
+RawEMGxLim
+RawEMGyLim
+ProcessedEMGxLim
+ProcessedEMGyLim
+BestBaselinexLim
+BestBaselineyLim
+SetWindowxLim
+SetWindowyLim
+RawEMGOnsetLine
+ProcessedEMGOnsetLine
+BestBaselineOnsetLine
+SetWindowOnsetLine
+RawEMGOverrideOnsetLine
+% ProcessedEMGOverrideOnsetLine
+% BestBaselineOverrideOnsetLine
+% SetWindowOverrideOnsetLine
+newColumnRF
+newColumnRE
+ExcelHeaders
+Dur
+Dur2
+StartSearchTime
+ThresholdSize
+TempCh1RF
+TempCh2RE
+SetWindowTempCh1RF
+SetWindowTempCh2RE
+RawEMGMax
+ProcessedEMGMax
+BestBaselineMax
+SetWindowMax
+EMGData
+Ch1EMG
+Ch2EMG
+Ch1RecordingMax
+Ch2RecordingMax
+RecordingMax
+NewOnset
+OverrideX
+OverrideY
+ThreshFields
+ThreshRF
+ThreshRE
+User
