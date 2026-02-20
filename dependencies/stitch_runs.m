@@ -13,6 +13,7 @@ cd(path)
 
 %% Segment Events and EMG Data
 first_stop = find(strcmp(Events, "STOP"), 1, "first");
+
 last_start = find(strcmp(Events, "START"), 1, "last");
 last_game_start = find(strcmp(Events, "game start"), 1, "last");
 
@@ -53,7 +54,7 @@ for i = 1:numel(col2)
 end
 
 % fn = fieldnames(pairs);
-% 
+%
 % for i = 1:numel(fn)
 %     val = pairs.(fn{i});
 %     if ~isequal(size(val), [2 1])   % If not exactly 2x1
